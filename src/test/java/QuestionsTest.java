@@ -38,7 +38,7 @@ public class QuestionsTest {
     }
 
     @Test
-    public void CheckingResponses() {
+    public void checkingResponses() {
         WebDriver driver = driverRule.getDriver();
         driver.get(BASE_URL);
 

@@ -50,7 +50,7 @@ public class OrderScooterTest {
 
 
     @Test
-    public void Order(){
+    public void order(){
         WebDriver driver = driverRule.getDriver();
         driver.get(BASE_URL);
 
